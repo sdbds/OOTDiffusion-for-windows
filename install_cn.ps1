@@ -15,7 +15,7 @@ pip install -U -r requirements-windows.txt
 
 huggingface-cli download --resume-download levihsu/OOTDiffusion --local-dir checkpoints
 
-huggingface-cli download --resume-download openai/clip-vit-large-patch14 --local-dir checkpoints
+huggingface-cli download --resume-download openai/clip-vit-large-patch14 --local-dir checkpoints/clip-vit-large-patch14
 
 Write-Output "°²×°Íê±Ï"
 Read-Host | Out-Null ;
